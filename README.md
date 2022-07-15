@@ -31,7 +31,7 @@ e
 
 	- Vaga cientista de dados com as palavras chaves:
 	Python, Banco de dados, Machine Learning, 
-	Resolução De Problemas, Estatística
+	Resolução De Problemas, Estatística.
 
 ## Funcionamento
 
