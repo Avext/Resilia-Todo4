@@ -47,7 +47,7 @@ def insertCandidates():
 
 def queryCandidates():
 
-    print('\nEstão cadastrados para as vagas de analista de dados',len(dataAnalyst['name']),'candidatos.')
+    print('\nEstá(ão) cadastrado(s) para as vagas de analista de dados',len(dataAnalyst['name']),'candidato(s).')
 
     countD = 0
     countDT = 0
@@ -60,23 +60,23 @@ def queryCandidates():
             countDT = countDT + 1
         countD = 0
     
-    print(countDT,'candidatos possuem pelo menos uma das palavras-chave relacionadas à vaga de analista de dados.')
+    print(countDT,'candidato(s) possuem pelo menos uma das palavras-chave relacionadas à vaga de analista de dados.')
 
 
-    print('\nEstão cadastrados para as vagas de cientista de dados',len(dataScientist['name']),'candidatos.')
+    print('\nEstá(ão) cadastrado(s) para as vagas de cientista de dados',len(dataScientist['name']),'candidato(s).')
 
     countS = 0 #conta palavras-chave por resumo
-    countST = 0 #conta 
+    countST = 0 #conta os candidatos que possuem palavras-chave
     for wordS in dataScientist['summary']:
         for keywordS in keywordsLS: #identificar todas as palavras
             if keywordS in wordS:
                 countS = countS + 1
 
-        if countS > 0:#5
+        if countS > 0:
             countST = countST + 1
         countS = 0    
 
-    print(countST,'candidatos possuem pelo menos uma das palavras-chave relacionadas à vaga de cientista de dados.\n')
+    print(countST,'candidato(s) possuem pelo menos uma das palavras-chave relacionadas à vaga de cientista de dados.\n')
 
 
 insertCandidates()
