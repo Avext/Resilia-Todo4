@@ -38,7 +38,7 @@ e
 Este código possui duas versões distintas de 
 funcionamento, cada uma delas será explicada abaixo:
 
-	Versão 1:
+	Versão 1: (TODO4.py)
 
 Esta versão se comporta como o específicado na 
 descrição do projeto. São feitas as perguntas: 
@@ -56,7 +56,7 @@ quantas pessoas estão inscritas em cada vaga;
 e quantas pessoas tem o resumo com as palavras 
 que estamos buscando.
 
-	Versão 2:
+	Versão 2: (TODO4 - TXT Version.py)
 
 Esta versão abre os resumos a partir de arquivos
 .txt colocados no mesmo diretório do código. 
